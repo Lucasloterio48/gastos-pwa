@@ -62,7 +62,7 @@
     document.getElementById("form-gasto").addEventListener("submit", function(e) {
       e.preventDefault();
       const data = new FormData(e.target);
-      fetch("https://script.google.com/macros/library/d/10UaiZD3qURJW4Q_3-S1ITz_DGzbDqLHboC2CcQpID1jNwueliSHGqiW1/1", {
+      fetch("https://script.google.com/macros/s/AKfycbxNn_peDRH6QZzNPdI02TrUWOYk34RgYdVRub7U5Uuz2DjcY0qtvZJFLuOm66aVXxA/exec", {
         method: "POST",
         body: data
       })
